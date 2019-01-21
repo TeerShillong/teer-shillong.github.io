@@ -1,0 +1,62 @@
+<html>
+<title>Log-in_Home</title>
+<style>
+table { border-size:2; align:"center";}
+</style>
+<body>
+
+<div style="background-color:skyBlue; text-align:center">
+
+<header>
+<b>
+<br>
+
+<img src="a/teer.jpg";>
+</div>
+<div style="background-color:white; text-align:center; "><br>
+<!--Function to check password the already set password is Teer45-->
+<br>
+<table align=center border=2>
+<th>
+<form>
+    <label for="pswd">Enter your Agent ID: </label><br>
+	<br>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "agent17x";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="a/password.html";
+        }
+        else{
+            alert("Agent ID do not match.");
+        }
+    }
+</script>
+</th>
+</table>
+</div>
+<div style="background-color:skyBlue; text-align:center; ">
+<br>
+Go to Teertoday.com Click Here.<br>
+<br>
+<a href="http://teertoday.com/"><button style="background-color:#3FD5BA; border-color:#3FD5FA; font-color:blue" type="submit"><b>Teertoday</b></button></a><br>
+<br>
+<br>
+<form method="link" action="index.html">
+
+<input style="background-color:#3FD5BA; border-color:#3FD5FA; font-color:blue" type="submit" value="Refresh"><form method="link" action="index.html">
+
+<input style="background-color:#3FD5BA; border-color:#3FD5FA; font-color:blue" type="submit" value="Refresh">
+<br>
+<br>
+<big>Teer Shillong</big><br>
+<small>International Goblin Association,Asia.</small>
+<br>
+<br>
+</div>
+</body>
+</html>
